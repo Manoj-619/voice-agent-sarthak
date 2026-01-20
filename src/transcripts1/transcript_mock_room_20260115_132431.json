@@ -1,0 +1,70 @@
+{
+  "transcript": {
+    "items": [
+      {
+        "id": "item_eeebec43a987",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_f65f6c143795",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.8942871,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768463653.4343429,
+          "stopped_speaking_at": 1768463653.4343412,
+          "transcription_delay": 0.7593636512756348,
+          "end_of_turn_delay": 0.8783547878265381,
+          "on_user_turn_completed_delay": 7.499984349124134e-07
+        }
+      },
+      {
+        "id": "item_7856ab403ebb",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi there! Thank you for joining me today. My name is [Your Name], and I'm excited to talk with you about your experiences related to problem-solving and decision-making. This is a great opportunity for us to get to know each other better. How are you doing today?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "llm_node_ttft": 1.2286316669997177
+        }
+      },
+      {
+        "id": "item_b683639e9d6c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.0,
+        "extra": {},
+        "metrics": {}
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.8783547878265381,
+    "llm_ttft": 1.2275805410008616,
+    "tts_ttfb": 0.0,
+    "total_latency": 2.1059353288273996,
+    "metrics_types": [
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "STTMetrics"
+    ],
+    "metrics_count": 25
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260115_132431"
+}

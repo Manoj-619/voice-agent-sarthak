@@ -1,0 +1,66 @@
+{
+  "interview_type": "BaseThesis Technical Behavioral Interview",
+  "transcript": {
+    "items": [
+      {
+        "id": "item_223a6079f7a9",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      }
+    ]
+  },
+  "candidate_responses": [],
+  "candidate_evaluation": {
+    "scores_found": false,
+    "domain_deep_thinking": null,
+    "systems_thinking": null,
+    "production_mindset": null,
+    "learning_velocity": null,
+    "research_maturity": null,
+    "overall_score": null,
+    "recommendation": null,
+    "evidence": {},
+    "analysis": {},
+    "strengths": [],
+    "growth_areas": [],
+    "candidate_quotes": []
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.0,
+    "llm_ttft": 0.0,
+    "tts_ttfb": 0.0,
+    "total_latency": 0.0,
+    "metrics_types": [
+      "VADMetrics",
+      "STTMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 28
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260116_120948",
+  "evaluation_framework": {
+    "domain_deep_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "systems_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "production_mindset": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "learning_velocity": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "research_maturity": {
+      "weight": "10%",
+      "scale": "0-10"
+    }
+  }
+}

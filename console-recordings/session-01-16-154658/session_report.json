@@ -1,0 +1,50 @@
+{
+  "job_id": "fake-job-d2b3f389d6bb",
+  "room_id": "FAKE_RM_f1a4cd99e1cc",
+  "room": "console-room",
+  "events": [
+    {
+      "type": "agent_state_changed",
+      "old_state": "initializing",
+      "new_state": "listening",
+      "created_at": 1768558619.9343271
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "away",
+      "created_at": 1768558634.9354932
+    },
+    {
+      "type": "close",
+      "error": null,
+      "reason": "user_initiated",
+      "created_at": 1768558655.4650428
+    }
+  ],
+  "audio_recording_path": null,
+  "audio_recording_started_at": null,
+  "options": {
+    "allow_interruptions": true,
+    "discard_audio_if_uninterruptible": true,
+    "min_interruption_duration": 0.5,
+    "min_interruption_words": 0,
+    "min_endpointing_delay": 0.5,
+    "max_endpointing_delay": 3.0,
+    "max_tool_steps": 3,
+    "user_away_timeout": 15.0,
+    "min_consecutive_speech_delay": 0.0,
+    "preemptive_generation": true
+  },
+  "chat_history": {
+    "items": [
+      {
+        "id": "item_54e9f288eedd",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant",
+        "created_at": 1768558619.932068
+      }
+    ]
+  },
+  "timestamp": 1768558655.4708102
+}

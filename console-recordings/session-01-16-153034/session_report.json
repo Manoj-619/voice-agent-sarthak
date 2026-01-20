@@ -1,0 +1,335 @@
+{
+  "job_id": "fake-job-9ade45d74d7d",
+  "room_id": "FAKE_RM_0cb78aa0da32",
+  "room": "console-room",
+  "events": [
+    {
+      "type": "agent_state_changed",
+      "old_state": "initializing",
+      "new_state": "listening",
+      "created_at": 1768557636.877664
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Okay.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1768557640.0540538
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1768557644.665247
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1768557645.0683122
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1768557645.3627882
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Hello?",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1768557645.379785
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1768557645.382741
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_0c1fa95608d0",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.72265625,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768557644.665015,
+          "stopped_speaking_at": 1768557644.766507,
+          "transcription_delay": 0.6158249378204346,
+          "end_of_turn_delay": 0.7367050647735596,
+          "on_user_turn_completed_delay": 1.2500022421590984e-06
+        },
+        "created_at": 1768557645.382526,
+        "hash": null
+      },
+      "created_at": 1768557645.5064378
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1768557645.506451
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Hello?",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1768557646.372334
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1768557646.372479
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1768557647.0449762
+    },
+    {
+      "type": "agent_false_interruption",
+      "resumed": true,
+      "created_at": 1768557648.375123,
+      "message": null,
+      "extra_instructions": null
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_bc1a8bf76dbf",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! Thank you for joining me today. I\u2019m a technical interviewer for BaseThesis. I\u2019ll be asking you a few questions about your technical experiences to better understand how you approach problems. Are you ready to get started?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768557647.0449312,
+          "stopped_speaking_at": 1768557660.180861,
+          "llm_node_ttft": 1.125358833000064,
+          "tts_node_ttfb": 0.5347397080040537,
+          "e2e_latency": 2.2784242630004883
+        },
+        "created_at": 1768557645.506633,
+        "hash": null
+      },
+      "created_at": 1768557660.181133
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1768557660.181219
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Yeah.",
+      "is_final": false,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1768557661.380089
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Yes.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "en-US",
+      "created_at": 1768557662.07327
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1768557662.0756989
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_b712c07afa03",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Yes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.8696289,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768557661.164441,
+          "stopped_speaking_at": 1768557661.164439,
+          "transcription_delay": 0.9109609127044678,
+          "end_of_turn_delay": 0.9647150039672852,
+          "on_user_turn_completed_delay": 1.0419971658848226e-06
+        },
+        "created_at": 1768557662.075541,
+        "hash": null
+      },
+      "created_at": 1768557662.131237
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1768557662.131247
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1768557664.022878
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_78fd5d6302a5",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Great! Let's dive right in.\n\n**Domain-Deep Thinking:** \n\nTell me about a difficult technical problem you solved recently. What made it challenging?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768557664.022809,
+          "stopped_speaking_at": 1768557672.280498,
+          "llm_node_ttft": 1.1338932080034283,
+          "tts_node_ttfb": 0.811677542005782,
+          "e2e_latency": 2.858370065689087
+        },
+        "created_at": 1768557662.131339,
+        "hash": null
+      },
+      "created_at": 1768557672.280659
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1768557672.280725
+    },
+    {
+      "type": "close",
+      "error": null,
+      "reason": "user_initiated",
+      "created_at": 1768557675.7810838
+    }
+  ],
+  "audio_recording_path": null,
+  "audio_recording_started_at": null,
+  "options": {
+    "allow_interruptions": true,
+    "discard_audio_if_uninterruptible": true,
+    "min_interruption_duration": 0.5,
+    "min_interruption_words": 0,
+    "min_endpointing_delay": 0.5,
+    "max_endpointing_delay": 3.0,
+    "max_tool_steps": 3,
+    "user_away_timeout": 15.0,
+    "min_consecutive_speech_delay": 0.0,
+    "preemptive_generation": true
+  },
+  "chat_history": {
+    "items": [
+      {
+        "id": "item_5430deb57084",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant",
+        "created_at": 1768557636.874306
+      },
+      {
+        "id": "item_0c1fa95608d0",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.72265625,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768557644.665015,
+          "stopped_speaking_at": 1768557644.766507,
+          "transcription_delay": 0.6158249378204346,
+          "end_of_turn_delay": 0.7367050647735596,
+          "on_user_turn_completed_delay": 1.2500022421590984e-06
+        },
+        "created_at": 1768557645.382526
+      },
+      {
+        "id": "item_bc1a8bf76dbf",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! Thank you for joining me today. I\u2019m a technical interviewer for BaseThesis. I\u2019ll be asking you a few questions about your technical experiences to better understand how you approach problems. Are you ready to get started?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768557647.0449312,
+          "stopped_speaking_at": 1768557660.180861,
+          "llm_node_ttft": 1.125358833000064,
+          "tts_node_ttfb": 0.5347397080040537,
+          "e2e_latency": 2.2784242630004883
+        },
+        "created_at": 1768557645.506633
+      },
+      {
+        "id": "item_b712c07afa03",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Yes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.8696289,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768557661.164441,
+          "stopped_speaking_at": 1768557661.164439,
+          "transcription_delay": 0.9109609127044678,
+          "end_of_turn_delay": 0.9647150039672852,
+          "on_user_turn_completed_delay": 1.0419971658848226e-06
+        },
+        "created_at": 1768557662.075541
+      },
+      {
+        "id": "item_78fd5d6302a5",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Great! Let's dive right in.\n\n**Domain-Deep Thinking:** \n\nTell me about a difficult technical problem you solved recently. What made it challenging?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768557664.022809,
+          "stopped_speaking_at": 1768557672.280498,
+          "llm_node_ttft": 1.1338932080034283,
+          "tts_node_ttfb": 0.811677542005782,
+          "e2e_latency": 2.858370065689087
+        },
+        "created_at": 1768557662.131339
+      }
+    ]
+  },
+  "timestamp": 1768557675.787513
+}

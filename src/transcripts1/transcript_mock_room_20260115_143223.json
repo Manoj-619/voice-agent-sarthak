@@ -1,0 +1,58 @@
+{
+  "transcript": {
+    "items": [
+      {
+        "id": "item_e16e8d4b9187",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_852ac7ebb6c3",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.717041,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768467718.326677,
+          "stopped_speaking_at": 1768467718.326675,
+          "transcription_delay": 0.7556259632110596,
+          "end_of_turn_delay": 0.8890759944915771,
+          "on_user_turn_completed_delay": 1.4159995771478862e-06
+        }
+      },
+      {
+        "id": "item_77aca80a6069",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! It’s great to connect with you. I’m [Your Name], and I’m here to conduct your behavioral interview today. How are you doing?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "llm_node_ttft": 2.290432083998894
+        }
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.8890759944915771,
+    "llm_ttft": 2.287898665999819,
+    "tts_ttfb": 0.0,
+    "total_latency": 3.176974660491396,
+    "metrics_types": [
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "STTMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 35
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260115_143223"
+}

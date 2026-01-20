@@ -1,0 +1,132 @@
+{
+  "transcript": {
+    "items": [
+      {
+        "id": "item_eb18c8ef9899",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_0328eeec5958",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.8601074,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768468537.252907,
+          "stopped_speaking_at": 1768468554.25187,
+          "transcription_delay": 0.5605220794677734,
+          "end_of_turn_delay": 0.6975870132446289,
+          "on_user_turn_completed_delay": 1.915999746415764e-06
+        }
+      },
+      {
+        "id": "item_6341089ac524",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi there! I'm glad to meet you. My name is [Your Name], and I work with ConnectionOS. I'm looking forward to our conversation today. How are you doing?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768468556.856323,
+          "stopped_speaking_at": 1768468566.1491468,
+          "llm_node_ttft": 1.225796957998682,
+          "tts_node_ttfb": 0.8051100420016155,
+          "e2e_latency": 2.6044530868530273
+        }
+      },
+      {
+        "id": "item_8882b95041dc",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Why did you take so long to respond?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768468567.35703,
+          "stopped_speaking_at": 1768468569.25129,
+          "transcription_delay": 0.5660579204559326,
+          "end_of_turn_delay": 0.6193709373474121,
+          "on_user_turn_completed_delay": 7.910020940471441e-07
+        }
+      },
+      {
+        "id": "item_4ed44c5db92f",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "I apologize for the delay! Sometimes it takes a moment to ensure that I'm fully ready to engage in our conversation. Thank you for your patience. Let’s dive into our interview. To start off, can you tell me about a difficult problem you solved recently? What was the situation, and what steps did you take to resolve it?"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768468571.3074849,
+          "stopped_speaking_at": 1768468587.912101,
+          "llm_node_ttft": 0.9807238749999669,
+          "tts_node_ttfb": 0.5077262500017241,
+          "e2e_latency": 2.05619478225708
+        }
+      },
+      {
+        "id": "item_22fc5f8c249e",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thank you."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99853516,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768468586.652902,
+          "stopped_speaking_at": 1768468586.952032,
+          "transcription_delay": 0.9594297409057617,
+          "end_of_turn_delay": 1.0044667720794678,
+          "on_user_turn_completed_delay": 5.420006345957518e-07
+        }
+      },
+      {
+        "id": "item_2bbb03f2beee",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "You're welcome! I look forward to hearing about the solution you came up with for that difficult problem. Please go ahead!"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768468589.793387,
+          "stopped_speaking_at": 1768468596.549089,
+          "llm_node_ttft": 1.0714772499995888,
+          "tts_node_ttfb": 0.7636787500014179,
+          "e2e_latency": 2.8413548469543457
+        }
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 1.0044667720794678,
+    "llm_ttft": 1.0713078330009012,
+    "tts_ttfb": 0.3233496249995369,
+    "total_latency": 2.399124230079906,
+    "metrics_types": [
+      "STTMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 89
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260115_144641"
+}

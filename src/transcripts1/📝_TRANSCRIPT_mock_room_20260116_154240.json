@@ -1,0 +1,42 @@
+{
+  "interview_type": "BaseThesis Technical Behavioral Interview",
+  "save_paths": {
+    "explicit_audio_path": null,
+    "explicit_json_path": "/Users/riapicardo/Desktop/basethesis/ottomator-agents/agent-starter-python/.github/transcripts1/📝_TRANSCRIPT_mock_room_20260116_154240.json",
+    "directory": "/Users/riapicardo/Desktop/basethesis/ottomator-agents/agent-starter-python/.github/transcripts1"
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260116_154240",
+  "audio_started": null,
+  "candidate_responses": [
+    {
+      "content": "Hello?",
+      "confidence": 0.81884766
+    }
+  ],
+  "candidate_evaluation": {
+    "scores_found": false
+  },
+  "metrics_count": 35,
+  "transcript": {
+    "items": [
+      {
+        "id": "item_7f51fc71d3a7",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_0447fe6688da",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.81884766,
+        "extra": {},
+        "metrics": {}
+      }
+    ]
+  }
+}

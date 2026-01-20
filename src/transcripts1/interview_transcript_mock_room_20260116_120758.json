@@ -1,0 +1,147 @@
+{
+  "interview_type": "BaseThesis Technical Behavioral Interview",
+  "transcript": {
+    "items": [
+      {
+        "id": "item_fe54c4b6501a",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_d9592be54a9e",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.8173828,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768545454.022687,
+          "stopped_speaking_at": 1768545454.12269,
+          "transcription_delay": 2.1640992164611816,
+          "end_of_turn_delay": 2.29087495803833,
+          "on_user_turn_completed_delay": 1.45800004247576e-06
+        }
+      },
+      {
+        "id": "item_5ecce6512025",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! I'm glad to have you here today. My name is [Your Name], and I’ll be your technical interviewer at BaseThesis. I’ll be asking you a few questions about your technical experiences to understand how you approach problems. Let’s get started! \n\nFirst, can you tell me about a difficult technical problem you solved recently? What"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768545457.948172,
+          "stopped_speaking_at": 1768545458.8918679,
+          "llm_node_ttft": 1.0081587089953246,
+          "tts_node_ttfb": 0.651437916996656,
+          "e2e_latency": 3.825482130050659
+        }
+      },
+      {
+        "id": "item_65e412d6ba58",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.7421875,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768545458.323033,
+          "stopped_speaking_at": 1768545458.3230321,
+          "transcription_delay": 0.567241907119751,
+          "end_of_turn_delay": 0.5915639400482178,
+          "on_user_turn_completed_delay": 3.583001671358943e-06
+        }
+      },
+      {
+        "id": "item_ceb35fde5276",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello again! It seems like there was a misunderstanding. Let's dive into the interview. \n\nCan you tell me about a difficult technical problem you solved recently? What made it challenging?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768545461.156238,
+          "stopped_speaking_at": 1768545472.344394,
+          "llm_node_ttft": 1.1156922499940265,
+          "tts_node_ttfb": 1.1229594169999473,
+          "e2e_latency": 2.8332059383392334
+        }
+      }
+    ]
+  },
+  "candidate_responses": [
+    {
+      "timestamp": 1768545454.022687,
+      "content": "Hello.",
+      "confidence": 0.8173828
+    },
+    {
+      "timestamp": 1768545458.323033,
+      "content": "Hello.",
+      "confidence": 0.7421875
+    }
+  ],
+  "candidate_evaluation": {
+    "scores_found": false,
+    "domain_deep_thinking": null,
+    "systems_thinking": null,
+    "production_mindset": null,
+    "learning_velocity": null,
+    "research_maturity": null,
+    "overall_score": null,
+    "recommendation": null,
+    "evidence": {},
+    "analysis": {},
+    "strengths": [],
+    "growth_areas": [],
+    "candidate_quotes": []
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.5915639400482178,
+    "llm_ttft": 1.1152897080028197,
+    "tts_ttfb": 0.7652773340014392,
+    "total_latency": 2.4721309820524766,
+    "metrics_types": [
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "STTMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 35
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260116_120758",
+  "evaluation_framework": {
+    "domain_deep_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "systems_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "production_mindset": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "learning_velocity": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "research_maturity": {
+      "weight": "10%",
+      "scale": "0-10"
+    }
+  }
+}

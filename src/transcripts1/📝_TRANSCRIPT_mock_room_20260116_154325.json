@@ -1,0 +1,143 @@
+{
+  "interview_type": "BaseThesis Technical Behavioral Interview",
+  "save_paths": {
+    "explicit_audio_path": null,
+    "explicit_json_path": "/Users/riapicardo/Desktop/basethesis/ottomator-agents/agent-starter-python/.github/transcripts1/📝_TRANSCRIPT_mock_room_20260116_154325.json",
+    "directory": "/Users/riapicardo/Desktop/basethesis/ottomator-agents/agent-starter-python/.github/transcripts1"
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260116_154325",
+  "audio_started": null,
+  "candidate_responses": [
+    {
+      "content": "Hello?",
+      "confidence": 0.91381836
+    },
+    {
+      "content": "Yes.",
+      "confidence": 0.99365234
+    },
+    {
+      "content": "Okay. Bye.",
+      "confidence": 0.99658203
+    }
+  ],
+  "candidate_evaluation": {
+    "scores_found": false
+  },
+  "metrics_count": 77,
+  "transcript": {
+    "items": [
+      {
+        "id": "item_6757e9e2ec73",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_26d0e1ca525a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.91381836,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768558409.0334,
+          "stopped_speaking_at": 1768558409.1344142,
+          "transcription_delay": 8.566991806030273,
+          "end_of_turn_delay": 8.708001852035522,
+          "on_user_turn_completed_delay": 2.0000006770715117e-06
+        }
+      },
+      {
+        "id": "item_ee5ccd00de45",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! I'm glad to meet you. My name is [Your Name], and I'm a technical interviewer for BaseThesis. Today, I'll ask you a few questions about your technical experiences to understand how you approach problems. Are you ready to get started?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768558419.176835,
+          "stopped_speaking_at": 1768558432.863473,
+          "llm_node_ttft": 0.9947543749949546,
+          "tts_node_ttfb": 0.47855458300182363,
+          "e2e_latency": 10.042420864105225
+        }
+      },
+      {
+        "id": "item_2ae0347e686c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Yes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99365234,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768558433.634078,
+          "stopped_speaking_at": 1768558433.6340759,
+          "transcription_delay": 1.9228410720825195,
+          "end_of_turn_delay": 1.9796571731567383,
+          "on_user_turn_completed_delay": 7.90998456068337e-07
+        }
+      },
+      {
+        "id": "item_e1bd0f13a92f",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Great! Let's dive right in.\n\n**Domain-Deep Thinking:** \n\nTell me about a difficult technical problem you solved recently. What made it challenging?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768558437.251759,
+          "stopped_speaking_at": 1768558446.963539,
+          "llm_node_ttft": 1.105785375002597,
+          "tts_node_ttfb": 0.5874764580003102,
+          "e2e_latency": 3.617683172225952
+        }
+      },
+      {
+        "id": "item_8e5df0895743",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Okay. Bye."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99658203,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768558448.034643,
+          "stopped_speaking_at": 1768558448.333445,
+          "transcription_delay": 2.8372550010681152,
+          "end_of_turn_delay": 2.9125478267669678,
+          "on_user_turn_completed_delay": 6.250047590583563e-07
+        }
+      },
+      {
+        "id": "item_2a32dcb92f3b",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It seems like you might be having some technical difficulties or maybe you're not interested in continuing. If you would like to proceed with the interview, I'm here to help! Just let me know, and we can get started. If not, I wish you a great day ahead!"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768558452.657373,
+          "stopped_speaking_at": 1768558464.1566532,
+          "llm_node_ttft": 0.8712615830008872,
+          "tts_node_ttfb": 0.6140376670009573,
+          "e2e_latency": 4.323927879333496
+        }
+      }
+    ]
+  }
+}

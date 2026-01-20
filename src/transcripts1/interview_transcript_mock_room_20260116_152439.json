@@ -1,0 +1,31 @@
+{
+  "interview_type": "BaseThesis Technical Behavioral Interview",
+  "transcript": {
+    "items": []
+  },
+  "candidate_responses": [],
+  "candidate_evaluation": {
+    "scores_found": false,
+    "domain_deep_thinking": null,
+    "systems_thinking": null,
+    "production_mindset": null,
+    "learning_velocity": null,
+    "research_maturity": null,
+    "overall_score": null,
+    "recommendation": null,
+    "evidence": {},
+    "strengths": [],
+    "growth_areas": [],
+    "candidate_quotes": []
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.0,
+    "llm_ttft": 0.0,
+    "tts_ttfb": 0.0,
+    "total_latency": 0.0,
+    "metrics_count": 0
+  },
+  "audio_recording": "interview_audio_mock_room_20260116_152439.wav",
+  "room_name": "mock_room",
+  "timestamp": "20260116_152439"
+}

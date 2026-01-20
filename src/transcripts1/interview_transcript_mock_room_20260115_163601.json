@@ -1,0 +1,307 @@
+{
+  "interview_type": "BaseThesis Technical Behavioral Interview",
+  "transcript": {
+    "items": [
+      {
+        "id": "item_3871bd5cb737",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_82db198448ca",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.7849121,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475077.19312,
+          "stopped_speaking_at": 1768475077.296404,
+          "transcription_delay": 0.7308130264282227,
+          "end_of_turn_delay": 0.8435981273651123,
+          "on_user_turn_completed_delay": 1.334003172814846e-06
+        }
+      },
+      {
+        "id": "item_00156c54c316",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi there! I'm glad to see you today. I'm a technical interviewer from BaseThesis, and I'll be asking you a few questions about your technical experiences to understand how you approach problems. The interview will take about 5 to 7 minutes. Are you ready to get started?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475080.8397288,
+          "stopped_speaking_at": 1768475094.296129,
+          "llm_node_ttft": 2.3976844159988104,
+          "tts_node_ttfb": 0.4130183340021176,
+          "e2e_latency": 3.5433249473571777
+        }
+      },
+      {
+        "id": "item_80a2190ce201",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Yes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.76000977,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475095.0956469,
+          "stopped_speaking_at": 1768475095.193384,
+          "transcription_delay": 0.6567568778991699,
+          "end_of_turn_delay": 0.7142500877380371,
+          "on_user_turn_completed_delay": 6.669979484286159e-07
+        }
+      },
+      {
+        "id": "item_dd4826a39171",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Great! Let's dive in.\n\n**DOMAIN-DEEP THINKING:**  \n\nTell me about a difficult technical problem you solved recently. What made it challenging?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475097.4605062,
+          "stopped_speaking_at": 1768475108.39663,
+          "llm_node_ttft": 0.8152428749999672,
+          "tts_node_ttfb": 0.7934971670001687,
+          "e2e_latency": 2.267122268676758
+        }
+      },
+      {
+        "id": "item_3c57c11b871a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Of recently, I had a problem that I got stuck, and I saw"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99316407,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475113.999079,
+          "stopped_speaking_at": 1768475116.696855,
+          "transcription_delay": 1.6645419597625732,
+          "end_of_turn_delay": 3.000156879425049,
+          "on_user_turn_completed_delay": 4.04099773732014e-06
+        }
+      },
+      {
+        "id": "item_997eb388042b",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It sounds like you faced a challenging situation. Could you elaborate on the specific technical problem you encountered? What made it particularly difficult for you?"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475119.70657,
+          "stopped_speaking_at": 1768475120.467895,
+          "llm_node_ttft": 0.7235992090027139,
+          "tts_node_ttfb": 0.4015210829966236,
+          "e2e_latency": 3.0097148418426514
+        }
+      },
+      {
+        "id": "item_5ead0312bfab",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "docs and figured it out."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.98535156,
+        "extra": {},
+        "metrics": {
+          "transcription_delay": 0.0,
+          "on_user_turn_completed_delay": 3.749999450519681e-06
+        }
+      },
+      {
+        "id": "item_6f07f8f08802",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "I appreciate you mentioning that you looked at the documentation. Can you tell me more about what specific problem you were trying to solve and what made it challenging? What alternatives did you consider, and why did you choose the approach you ended up taking?"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475122.236174,
+          "stopped_speaking_at": 1768475132.2536802,
+          "llm_node_ttft": 0.7690629999997327,
+          "tts_node_ttfb": 0.4082672500007902
+        }
+      },
+      {
+        "id": "item_9074f649dc2a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "It's me,"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.86157227,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475130.995123,
+          "stopped_speaking_at": 1768475131.093467,
+          "transcription_delay": 1.1591038703918457,
+          "end_of_turn_delay": 1.229640007019043,
+          "on_user_turn_completed_delay": 1.0830008250195533e-06
+        }
+      },
+      {
+        "id": "item_6e4bfa397812",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It seems like you might be feeling a bit uncertain, and that's perfectly fine. Let's take a moment. Can you share any specific technical issue you faced? Perhaps some details about what you learned from it, or any alternatives you considered while trying to resolve the problem? I'm here to help you express your experience!"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475133.691457,
+          "stopped_speaking_at": 1768475135.1597812,
+          "llm_node_ttft": 0.7059823750023497,
+          "tts_node_ttfb": 0.6602411249987199,
+          "e2e_latency": 2.597990036010742
+        }
+      },
+      {
+        "id": "item_5393d495b4f4",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "it is basically, like, storing the transcript."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9716797,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475132.593805,
+          "stopped_speaking_at": 1768475133.494565,
+          "transcription_delay": 1.664294958114624,
+          "end_of_turn_delay": 1.7499639987945557,
+          "on_user_turn_completed_delay": 1.1250012903474271e-06
+        }
+      },
+      {
+        "id": "item_fad3fab80d0f",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Thank you for sharing that! Storing transcripts can definitely present some challenges. Could you explain what made that particular problem difficult? For instance, was it about how the data was being saved, the format it needed to be in, or something else? Also, did you explore different methods to store the transcripts, and what led you to choose your final approach?"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475136.418096,
+          "stopped_speaking_at": 1768475137.964772,
+          "llm_node_ttft": 0.7129367920024379,
+          "tts_node_ttfb": 0.4588635840009374,
+          "e2e_latency": 2.9235310554504395
+        }
+      },
+      {
+        "id": "item_cffd3bebaf3f",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "And, uh, the matrices."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9941406,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475136.7937112,
+          "stopped_speaking_at": 1768475137.2943842,
+          "transcription_delay": 0.6695067882537842,
+          "end_of_turn_delay": 0.7507288455963135,
+          "on_user_turn_completed_delay": 7.089984137564898e-07
+        }
+      },
+      {
+        "id": "item_1be547a48a59",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It sounds like the use of matrices was relevant to your solution. Could you elaborate on how matrices played a role in storing the transcripts? What challenges did you face with them, and what alternatives did you consider as you were working through the problem? Additionally, what did you learn during this process?"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475140.1648262,
+          "stopped_speaking_at": 1768475155.152639,
+          "llm_node_ttft": 1.5629987079992134,
+          "tts_node_ttfb": 0.5549599160003709,
+          "e2e_latency": 2.8704419136047363
+        }
+      },
+      {
+        "id": "item_2a4b335da852",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thank you."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9970703,
+        "extra": {},
+        "metrics": {
+          "transcription_delay": 0.0,
+          "on_user_turn_completed_delay": 6.792000931454822e-06
+        }
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.0,
+    "llm_ttft": 4.014756292002858,
+    "tts_ttfb": 0.21309904200097662,
+    "total_latency": 4.227855334003834,
+    "metrics_types": [
+      "STTMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "LLMMetrics"
+    ],
+    "metrics_count": 117
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260115_163601",
+  "evaluation_framework": {
+    "domain_deep_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "systems_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "production_mindset": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "learning_velocity": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "research_maturity": {
+      "weight": "10%",
+      "scale": "0-10"
+    }
+  },
+  "note": "Scores and detailed evaluation should be extracted from the agent's final response in the transcript"
+}

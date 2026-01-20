@@ -1,0 +1,27 @@
+{
+  "transcript": {
+    "items": [
+      {
+        "id": "item_7e4234ad789f",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.0,
+    "llm_ttft": 0.0,
+    "tts_ttfb": 0.0,
+    "total_latency": 0.0,
+    "metrics_types": [
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 13
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260114_153928"
+}

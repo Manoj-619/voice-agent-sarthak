@@ -1,0 +1,103 @@
+{
+  "interview_type": "BaseThesis Technical Behavioral Interview",
+  "transcript": {
+    "items": [
+      {
+        "id": "item_9afbb9bccd9a",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_c09696c1f33c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9614258,
+        "extra": {},
+        "metrics": {
+          "transcription_delay": 0.0,
+          "on_user_turn_completed_delay": 1.6660051187500358e-06
+        }
+      },
+      {
+        "id": "item_2c72276d3ae0",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! I'm glad to meet you. My name is [Your Name], and I'm a technical interviewer here at BaseThesis. Today, I'll ask you a few questions about your technical experiences to understand how you approach problems. Let's get started!\n\nTo begin, can you tell me about a difficult technical problem you solved recently? What made it challenging?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768545493.6940138,
+          "stopped_speaking_at": 1768545509.5858839,
+          "llm_node_ttft": 1.1284509580000304,
+          "tts_node_ttfb": 0.7028090840030927
+        }
+      }
+    ]
+  },
+  "candidate_responses": [
+    {
+      "timestamp": null,
+      "content": "Hello.",
+      "confidence": 0.9614258
+    }
+  ],
+  "candidate_evaluation": {
+    "scores_found": false,
+    "domain_deep_thinking": null,
+    "systems_thinking": null,
+    "production_mindset": null,
+    "learning_velocity": null,
+    "research_maturity": null,
+    "overall_score": null,
+    "recommendation": null,
+    "evidence": {},
+    "analysis": {},
+    "strengths": [],
+    "growth_areas": [],
+    "candidate_quotes": []
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.0,
+    "llm_ttft": 1.127317958002095,
+    "tts_ttfb": 0.3926228330019512,
+    "total_latency": 1.5199407910040463,
+    "metrics_types": [
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 66
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260116_120902",
+  "evaluation_framework": {
+    "domain_deep_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "systems_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "production_mindset": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "learning_velocity": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "research_maturity": {
+      "weight": "10%",
+      "scale": "0-10"
+    }
+  }
+}

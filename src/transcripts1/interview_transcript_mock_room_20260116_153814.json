@@ -1,0 +1,145 @@
+{
+  "interview_type": "BaseThesis Technical Behavioral Interview",
+  "transcript": {
+    "items": [
+      {
+        "id": "item_49bce33509a3",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_4084618ac263",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.7553711,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768558096.5162299,
+          "stopped_speaking_at": 1768558096.615985,
+          "transcription_delay": 1.0071840286254883,
+          "end_of_turn_delay": 1.1255910396575928,
+          "on_user_turn_completed_delay": 1.45800004247576e-06
+        }
+      },
+      {
+        "id": "item_6a471c7076fd",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! I'm glad you could join me today. I'm a technical interviewer for BaseThesis. I'll be asking you a few questions about your technical experiences to understand how you approach problems. Let's dive in!\n\nTo start off, can you tell me about a difficult technical problem you solved recently? What made it challenging?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768558099.0980759,
+          "stopped_speaking_at": 1768558118.2438111,
+          "llm_node_ttft": 0.9587314160016831,
+          "tts_node_ttfb": 0.5143731670032139,
+          "e2e_latency": 2.482090950012207
+        }
+      },
+      {
+        "id": "item_2080391ff660",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thank you."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9975586,
+        "extra": {},
+        "metrics": {
+          "transcription_delay": 0.0,
+          "on_user_turn_completed_delay": 3.417000698391348e-06
+        }
+      },
+      {
+        "id": "item_f31d198e2be9",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "You're welcome! Whenever you're ready, I'd love to hear about a difficult technical problem you solved recently and what made it a challenge for you."
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768558127.824686,
+          "stopped_speaking_at": 1768558127.834263,
+          "llm_node_ttft": 2.3076256249987637,
+          "tts_node_ttfb": 1.379974832998414
+        }
+      }
+    ]
+  },
+  "candidate_responses": [
+    {
+      "timestamp": 1768558096.5162299,
+      "content": "Hello?",
+      "confidence": 0.7553711
+    },
+    {
+      "timestamp": null,
+      "content": "Thank you.",
+      "confidence": 0.9975586
+    }
+  ],
+  "candidate_evaluation": {
+    "scores_found": false,
+    "domain_deep_thinking": null,
+    "systems_thinking": null,
+    "production_mindset": null,
+    "learning_velocity": null,
+    "research_maturity": null,
+    "overall_score": null,
+    "recommendation": null,
+    "evidence": {},
+    "analysis": {},
+    "strengths": [],
+    "growth_areas": [],
+    "candidate_quotes": []
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.0,
+    "llm_ttft": 2.30669445899548,
+    "tts_ttfb": 0.3306575000024168,
+    "total_latency": 2.637351958997897,
+    "metrics_types": [
+      "STTMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "LLMMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 43
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260116_153814",
+  "audio_recording_path": null,
+  "audio_recording_started_at": null,
+  "evaluation_framework": {
+    "domain_deep_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "systems_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "production_mindset": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "learning_velocity": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "research_maturity": {
+      "weight": "10%",
+      "scale": "0-10"
+    }
+  }
+}

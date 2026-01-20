@@ -1,0 +1,242 @@
+{
+  "interview_type": "BaseThesis Technical Behavioral Interview",
+  "transcript": {
+    "items": [
+      {
+        "id": "item_71ce06e44071",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_c8aebe779c3f",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.7705078,
+        "extra": {},
+        "metrics": {
+          "transcription_delay": 0.0,
+          "on_user_turn_completed_delay": 3.707998985191807e-06
+        }
+      },
+      {
+        "id": "item_34e187e93888",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Uh,"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9421387,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768476813.484318,
+          "stopped_speaking_at": 1768476813.484313,
+          "transcription_delay": 0.6595549583435059,
+          "end_of_turn_delay": 0.6776249408721924,
+          "on_user_turn_completed_delay": 1.2500022421590984e-06
+        }
+      },
+      {
+        "id": "item_e84d5dc3385c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "oh,"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.62854004,
+        "extra": {},
+        "metrics": {
+          "transcription_delay": 0.0,
+          "on_user_turn_completed_delay": 5.3340008889790624e-06
+        }
+      },
+      {
+        "id": "item_72946c0656ca",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! Thank you for joining me today. I'm a technical interviewer for BaseThesis, and I'm excited to discuss your technical experiences with you. I'll ask you a few questions to understand how you approach problems and learn from your experiences. \n\nShall we dive in?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "llm_node_ttft": 0.7194980409985874
+        }
+      },
+      {
+        "id": "item_01ae2d96ca44",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "In Mali, it's state as a"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.81933594,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768476821.983528,
+          "stopped_speaking_at": 1768476822.483683,
+          "transcription_delay": 0.8028438091278076,
+          "end_of_turn_delay": 3.0004019737243652,
+          "on_user_turn_completed_delay": 3.1669987947680056e-06
+        }
+      },
+      {
+        "id": "item_f3505a963e04",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "I believe there might be a misunderstanding; we're here to discuss your technical experiences and approach to problem-solving. Let’s start with a question about your technical background.\n\nCan you tell me about a difficult technical problem you solved recently? What made it challenging for you?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "llm_node_ttft": 0.6577641250005399
+        }
+      },
+      {
+        "id": "item_c7f139a8b05d",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Oh, I'm not able to run now."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.81414795,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768476838.4826791,
+          "stopped_speaking_at": 1768476840.585801,
+          "transcription_delay": 0.5627830028533936,
+          "end_of_turn_delay": 0.6743121147155762,
+          "on_user_turn_completed_delay": 1.1659976735245436e-06
+        }
+      },
+      {
+        "id": "item_64e3308459f9",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Okay."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9975586,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768476842.080945,
+          "stopped_speaking_at": 1768476842.8831182,
+          "transcription_delay": 0.0,
+          "end_of_turn_delay": 0.6830828189849854,
+          "on_user_turn_completed_delay": 5.000001692678779e-07
+        }
+      },
+      {
+        "id": "item_be04232b891c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I've got it. It says not telemicromic."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.5390625,
+        "extra": {},
+        "metrics": {}
+      }
+    ]
+  },
+  "candidate_responses": [
+    {
+      "timestamp": null,
+      "content": "Hello?",
+      "confidence": 0.7705078
+    },
+    {
+      "timestamp": 1768476813.484318,
+      "content": "Uh,",
+      "confidence": 0.9421387
+    },
+    {
+      "timestamp": null,
+      "content": "oh,",
+      "confidence": 0.62854004
+    },
+    {
+      "timestamp": 1768476821.983528,
+      "content": "In Mali, it's state as a",
+      "confidence": 0.81933594
+    },
+    {
+      "timestamp": 1768476838.4826791,
+      "content": "Oh, I'm not able to run now.",
+      "confidence": 0.81414795
+    },
+    {
+      "timestamp": 1768476842.080945,
+      "content": "Okay.",
+      "confidence": 0.9975586
+    },
+    {
+      "timestamp": null,
+      "content": "I've got it. It says not telemicromic.",
+      "confidence": 0.5390625
+    }
+  ],
+  "candidate_evaluation": {
+    "scores_found": false,
+    "domain_deep_thinking": null,
+    "systems_thinking": null,
+    "production_mindset": null,
+    "learning_velocity": null,
+    "research_maturity": null,
+    "overall_score": null,
+    "recommendation": null,
+    "evidence": {},
+    "analysis": {},
+    "strengths": [],
+    "growth_areas": [],
+    "candidate_quotes": []
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.6830828189849854,
+    "llm_ttft": 0.6257238750004035,
+    "tts_ttfb": 0.0,
+    "total_latency": 1.3088066939853888,
+    "metrics_types": [
+      "LLMMetrics",
+      "STTMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 56
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260115_170410",
+  "evaluation_framework": {
+    "domain_deep_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "systems_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "production_mindset": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "learning_velocity": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "research_maturity": {
+      "weight": "10%",
+      "scale": "0-10"
+    }
+  }
+}

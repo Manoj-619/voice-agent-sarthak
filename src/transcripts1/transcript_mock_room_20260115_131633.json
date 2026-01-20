@@ -1,0 +1,21 @@
+{
+  "transcript": {
+    "items": [
+      {
+        "id": "item_8f984ed5907f",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.0,
+    "llm_ttft": 0.0,
+    "tts_ttfb": 0.0,
+    "total_latency": 0.0,
+    "metrics_types": [],
+    "metrics_count": 0
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260115_131633"
+}

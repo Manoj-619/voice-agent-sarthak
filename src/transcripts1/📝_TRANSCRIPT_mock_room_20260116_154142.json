@@ -1,0 +1,83 @@
+{
+  "interview_type": "BaseThesis Technical Behavioral Interview",
+  "save_paths": {
+    "explicit_audio_path": null,
+    "explicit_json_path": "/Users/riapicardo/Desktop/basethesis/ottomator-agents/agent-starter-python/.github/transcripts1/📝_TRANSCRIPT_mock_room_20260116_154142.json",
+    "directory": "/Users/riapicardo/Desktop/basethesis/ottomator-agents/agent-starter-python/.github/transcripts1"
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260116_154142",
+  "audio_started": null,
+  "candidate_responses": [
+    {
+      "content": "Hello.",
+      "confidence": 0.92333984
+    },
+    {
+      "content": "Hello?",
+      "confidence": 0.9946289
+    },
+    {
+      "content": "Hello?",
+      "confidence": 0.0
+    }
+  ],
+  "candidate_evaluation": {
+    "scores_found": false
+  },
+  "metrics_count": 26,
+  "transcript": {
+    "items": [
+      {
+        "id": "item_8fe7a9b60bd7",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_d189b0784991",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.92333984,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768558306.695967,
+          "stopped_speaking_at": 1768558310.191351,
+          "transcription_delay": 12.686314105987549,
+          "end_of_turn_delay": 12.828052043914795,
+          "on_user_turn_completed_delay": 2.416003553662449e-06
+        }
+      },
+      {
+        "id": "item_650e7b5f9f2a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9946289,
+        "extra": {},
+        "metrics": {
+          "transcription_delay": 0.0,
+          "on_user_turn_completed_delay": 6.042006134521216e-06
+        }
+      },
+      {
+        "id": "item_3c3d8aceeea2",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.0,
+        "extra": {},
+        "metrics": {}
+      }
+    ]
+  }
+}

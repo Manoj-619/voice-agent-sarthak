@@ -1,0 +1,146 @@
+{
+  "transcript": {
+    "items": [
+      {
+        "id": "item_a04694319e02",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_825242b80158",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.90722656,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768461607.5120142,
+          "stopped_speaking_at": 1768461607.810095,
+          "transcription_delay": 1.0426068305969238,
+          "end_of_turn_delay": 1.1750380992889404,
+          "on_user_turn_completed_delay": 2.1249998098937795e-06
+        }
+      },
+      {
+        "id": "item_2d0c2becf8c5",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! Thank you for joining me today. My name is [Your Name], and I'm excited to learn more about your experiences and how you approach problem-solving and decision-making. How are you doing today? "
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768461610.0968268,
+          "stopped_speaking_at": 1768461621.913772,
+          "llm_node_ttft": 0.7146815000014612,
+          "tts_node_ttfb": 0.5271012499997596,
+          "e2e_latency": 2.286731719970703
+        }
+      },
+      {
+        "id": "item_34c75d0664db",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Good."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.91064453,
+        "extra": {},
+        "metrics": {
+          "transcription_delay": 0.0,
+          "on_user_turn_completed_delay": 3.2089992600958794e-06
+        }
+      },
+      {
+        "id": "item_87b387bd7aaa",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "I'm glad to hear that! Let’s dive right into it. \n\n**Question 1:** Can you tell me about a difficult problem you solved recently? What was the situation, and how did you approach finding a solution?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768461625.7332559,
+          "stopped_speaking_at": 1768461638.213856,
+          "llm_node_ttft": 1.0781261669999367,
+          "tts_node_ttfb": 0.4647344160002831
+        }
+      },
+      {
+        "id": "item_2a6a9fcc1670",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Just went to do the talks and found the solution."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9111328,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768461640.809818,
+          "stopped_speaking_at": 1768461643.1104372,
+          "transcription_delay": 0.4880967140197754,
+          "end_of_turn_delay": 0.5722329616546631,
+          "on_user_turn_completed_delay": 7.079997885739431e-07
+        }
+      },
+      {
+        "id": "item_941ec84e84cc",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It sounds like you took initiative to seek out a solution through communication. Can you tell me a bit more about the specific problem you encountered and how those talks helped you to resolve it? What approach did you take during those discussions?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768461645.749831,
+          "stopped_speaking_at": 1768461657.2138612,
+          "llm_node_ttft": 1.4349812499986,
+          "tts_node_ttfb": 0.7153692920001049,
+          "e2e_latency": 2.6393938064575195
+        }
+      },
+      {
+        "id": "item_10872ab6b9cf",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thank you."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99560547,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768461658.8092449,
+          "stopped_speaking_at": 1768461658.809244,
+          "transcription_delay": 0.48065614700317383,
+          "end_of_turn_delay": 0.5694141387939453,
+          "on_user_turn_completed_delay": 7.500002539018169e-07
+        }
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.5694141387939453,
+    "llm_ttft": 0.6053584159999446,
+    "tts_ttfb": 0.436032833000354,
+    "total_latency": 1.6108053877942439,
+    "metrics_types": [
+      "STTMetrics",
+      "VADMetrics",
+      "EOUMetrics",
+      "VADMetrics",
+      "LLMMetrics"
+    ],
+    "metrics_count": 77
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260115_125102"
+}

@@ -1,0 +1,251 @@
+{
+  "transcript": {
+    "items": [
+      {
+        "id": "item_30d72309b70a",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_53ca9f3e6a0a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.999727,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400886.989314,
+          "stopped_speaking_at": 1768400887.1897001,
+          "transcription_delay": 1.1427958011627197,
+          "end_of_turn_delay": 1.2864618301391602,
+          "on_user_turn_completed_delay": 4.208006430417299e-06
+        }
+      },
+      {
+        "id": "item_c1217dc52c58",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi there! How can I help you today?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400889.83208,
+          "stopped_speaking_at": 1768400891.913343,
+          "llm_node_ttft": 0.9891888749989448,
+          "tts_node_ttfb": 0.508593499995186,
+          "e2e_latency": 2.6423797607421875
+        }
+      },
+      {
+        "id": "item_8e04ffa9f001",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "As the matrices and the transcripts being saved."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.8355845000000001,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400893.987176,
+          "stopped_speaking_at": 1768400899.284982,
+          "transcription_delay": 0.7567260265350342,
+          "end_of_turn_delay": 0.8001401424407959,
+          "on_user_turn_completed_delay": 1.3749959180131555e-06
+        }
+      },
+      {
+        "id": "item_14d27e29bd7d",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It sounds like you're asking about saving matrices and transcripts. Are you working on a specific project or need help with a particular type of data?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400901.822259,
+          "stopped_speaking_at": 1768400909.3186262,
+          "llm_node_ttft": 1.2143790410045767,
+          "tts_node_ttfb": 0.5645605419995263,
+          "e2e_latency": 2.5372769832611084
+        }
+      },
+      {
+        "id": "item_c161d0cfb69a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I am working with saving the transcripts that I'm having with the conversations that I'm having with you and the matrices."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.8458554761904763,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400910.587264,
+          "stopped_speaking_at": 1768400918.187728,
+          "transcription_delay": 1.0678160190582275,
+          "end_of_turn_delay": 1.1339659690856934,
+          "on_user_turn_completed_delay": 1.2499949662014842e-06
+        }
+      },
+      {
+        "id": "item_01f4ef86a03a",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Got it! If you want to save our conversations, you could copy and paste them into a document. For matrices, if you're working with data in software like Excel or Python, you can save them directly in the file format you prefer. Do you need more specific instructions?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400920.90038,
+          "stopped_speaking_at": 1768400936.4129422,
+          "llm_node_ttft": 0.9886082089942647,
+          "tts_node_ttfb": 0.6551441250048811,
+          "e2e_latency": 2.7126519680023193
+        }
+      },
+      {
+        "id": "item_d3899b274759",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "No thank you."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9796993333333334,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400935.488844,
+          "stopped_speaking_at": 1768400937.787025,
+          "transcription_delay": 0.8191699981689453,
+          "end_of_turn_delay": 0.9077260494232178,
+          "on_user_turn_completed_delay": 7.500057108700275e-07
+        }
+      },
+      {
+        "id": "item_3190b0107d75",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "You're welcome! If you have any other questions or need assistance later, just let me know."
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400940.098408,
+          "stopped_speaking_at": 1768400946.012796,
+          "llm_node_ttft": 0.918703249990358,
+          "tts_node_ttfb": 0.572304624991375,
+          "e2e_latency": 2.311383008956909
+        }
+      },
+      {
+        "id": "item_2cea8d96ff78",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Sure."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.53395,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400946.492544,
+          "stopped_speaking_at": 1768400946.6911428,
+          "transcription_delay": 1.1783602237701416,
+          "end_of_turn_delay": 1.2632901668548584,
+          "on_user_turn_completed_delay": 7.500057108700275e-07
+        }
+      },
+      {
+        "id": "item_ccdaf1509f27",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Great! What else is on your mind?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400949.368531,
+          "stopped_speaking_at": 1768400952.012765,
+          "llm_node_ttft": 1.0507859579956857,
+          "tts_node_ttfb": 0.4471915419999277,
+          "e2e_latency": 2.6773881912231445
+        }
+      },
+      {
+        "id": "item_8560f2ce76bd",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Nothing."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.995586,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400953.8894742,
+          "stopped_speaking_at": 1768400954.48544,
+          "transcription_delay": 0.6012558937072754,
+          "end_of_turn_delay": 0.677501916885376,
+          "on_user_turn_completed_delay": 5.829933797940612e-07
+        }
+      },
+      {
+        "id": "item_f112aa0d8c94",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Bye."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.577077,
+        "extra": {},
+        "metrics": {
+          "transcription_delay": 0.0,
+          "on_user_turn_completed_delay": 3.5840057535097003e-06
+        }
+      },
+      {
+        "id": "item_eb79b63e0951",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Bye! Have a great day!"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768400957.5305212,
+          "stopped_speaking_at": 1768400959.512963,
+          "llm_node_ttft": 1.0009958750015358,
+          "tts_node_ttfb": 0.39238087499688845
+        }
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.0,
+    "llm_ttft": 1.0002649579982972,
+    "tts_ttfb": 0.3088568329985719,
+    "total_latency": 1.309121790996869,
+    "metrics_types": [
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 102
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260114_195925"
+}

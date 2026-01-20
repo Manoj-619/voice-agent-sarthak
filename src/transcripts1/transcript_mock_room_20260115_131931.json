@@ -1,0 +1,101 @@
+{
+  "transcript": {
+    "items": [
+      {
+        "id": "item_3775d363534a",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_772b8d594475",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.7922363,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768463340.833643,
+          "stopped_speaking_at": 1768463340.9345212,
+          "transcription_delay": 0.9948699474334717,
+          "end_of_turn_delay": 1.1309928894042969,
+          "on_user_turn_completed_delay": 1.4999986888142303e-06
+        }
+      },
+      {
+        "id": "item_5aba94349247",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9655762,
+        "extra": {},
+        "metrics": {
+          "transcription_delay": 0.0,
+          "on_user_turn_completed_delay": 3.541999831213616e-06
+        }
+      },
+      {
+        "id": "item_8526bd8b3645",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi there! I'm glad you're here. My name is [Your Name], and I'm a professional interviewer for ConnectionOS. Thank you for taking the time to speak with me today. How are you doing?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "llm_node_ttft": 0.6698935420008638
+        }
+      },
+      {
+        "id": "item_3a2e3e5b5608",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Okay."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.8178711,
+        "extra": {},
+        "metrics": {
+          "transcription_delay": 0.0,
+          "on_user_turn_completed_delay": 4.833000275539234e-06
+        }
+      },
+      {
+        "id": "item_f4705d576b59",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Great to hear! I appreciate your response. Today, we're going to have a brief discussion focused on problem-solving and decision-making in a behavioral context. This will help us better understand how you approach challenges in the workplace. \n\nLet's jump right in. \n\n**Question 1:** Can you tell me about a difficult problem you solved recently? What was the situation, and what steps did you take to address it?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "llm_node_ttft": 1.641309208000166
+        }
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.0,
+    "llm_ttft": 1.6410767919987848,
+    "tts_ttfb": 0.0,
+    "total_latency": 1.6410767919987848,
+    "metrics_types": [
+      "VADMetrics",
+      "STTMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 44
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260115_131931"
+}

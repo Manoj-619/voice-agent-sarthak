@@ -1,0 +1,290 @@
+{
+  "job_id": "fake-job-7bf094715d05",
+  "room_id": "FAKE_RM_a81dddf4c59d",
+  "room": "console-room",
+  "events": [
+    {
+      "type": "agent_state_changed",
+      "old_state": "initializing",
+      "new_state": "listening",
+      "created_at": 1768556552.7810009
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1768556558.974258
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1768556559.673801
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Hello.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "",
+      "created_at": 1768556560.0134861
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1768556560.0153139
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_51ad507a2f99",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.999036,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768556558.9740958,
+          "stopped_speaking_at": 1768556559.172999,
+          "transcription_delay": 0.8420331478118896,
+          "end_of_turn_delay": 0.8453860282897949,
+          "on_user_turn_completed_delay": 2.0419975044205785e-06
+        },
+        "created_at": 1768556560.015163,
+        "hash": null
+      },
+      "created_at": 1768556560.15583
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1768556560.156105
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1768556561.849817
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Hello.",
+      "is_final": true,
+      "speaker_id": null,
+      "language": "",
+      "created_at": 1768556562.8385658
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1768556562.838676
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_06504f4a12f5",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! I'm glad to meet you. My name is [Your Name], and I'm a technical interviewer here at BaseThesis. Today, I'll be asking you a few questions about your technical experiences to understand how you approach problems. Are you ready to get started?"
+        ],
+        "interrupted": true,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768556561.8497138,
+          "stopped_speaking_at": 1768556562.842929,
+          "llm_node_ttft": 1.3194421250009327,
+          "tts_node_ttfb": 0.5114367920032237,
+          "e2e_latency": 2.6767148971557617
+        },
+        "created_at": 1768556560.1581042,
+        "hash": null
+      },
+      "created_at": 1768556562.84396
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1768556562.844509
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_9adf37c3da58",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.778613,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768556561.8748171,
+          "stopped_speaking_at": 1768556561.874815,
+          "transcription_delay": 0.9654760360717773,
+          "end_of_turn_delay": 0.9674739837646484,
+          "on_user_turn_completed_delay": 3.4999975468963385e-06
+        },
+        "created_at": 1768556562.844407,
+        "hash": null
+      },
+      "created_at": 1768556562.852661
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1768556562.8526819
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1768556564.501487
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_273a7964f693",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello again! It seems you may be checking in. If you're ready, we can jump right into the interview questions. Shall we begin?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768556564.501429,
+          "stopped_speaking_at": 1768556571.825981,
+          "llm_node_ttft": 1.1204304999992019,
+          "tts_node_ttfb": 0.5328635839978233,
+          "e2e_latency": 2.6266140937805176
+        },
+        "created_at": 1768556562.853088,
+        "hash": null
+      },
+      "created_at": 1768556571.826164
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1768556571.8262231
+    },
+    {
+      "type": "close",
+      "error": null,
+      "reason": "user_initiated",
+      "created_at": 1768556587.346019
+    }
+  ],
+  "audio_recording_path": null,
+  "audio_recording_started_at": null,
+  "options": {
+    "allow_interruptions": true,
+    "discard_audio_if_uninterruptible": true,
+    "min_interruption_duration": 0.5,
+    "min_interruption_words": 0,
+    "min_endpointing_delay": 0.5,
+    "max_endpointing_delay": 3.0,
+    "max_tool_steps": 3,
+    "user_away_timeout": 15.0,
+    "min_consecutive_speech_delay": 0.0,
+    "preemptive_generation": true
+  },
+  "chat_history": {
+    "items": [
+      {
+        "id": "item_d72daac4b4fa",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant",
+        "created_at": 1768556552.776618
+      },
+      {
+        "id": "item_51ad507a2f99",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.999036,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768556558.9740958,
+          "stopped_speaking_at": 1768556559.172999,
+          "transcription_delay": 0.8420331478118896,
+          "end_of_turn_delay": 0.8453860282897949,
+          "on_user_turn_completed_delay": 2.0419975044205785e-06
+        },
+        "created_at": 1768556560.015163
+      },
+      {
+        "id": "item_06504f4a12f5",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! I'm glad to meet you. My name is [Your Name], and I'm a technical interviewer here at BaseThesis. Today, I'll be asking you a few questions about your technical experiences to understand how you approach problems. Are you ready to get started?"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768556561.8497138,
+          "stopped_speaking_at": 1768556562.842929,
+          "llm_node_ttft": 1.3194421250009327,
+          "tts_node_ttfb": 0.5114367920032237,
+          "e2e_latency": 2.6767148971557617
+        },
+        "created_at": 1768556560.1581042
+      },
+      {
+        "id": "item_9adf37c3da58",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.778613,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768556561.8748171,
+          "stopped_speaking_at": 1768556561.874815,
+          "transcription_delay": 0.9654760360717773,
+          "end_of_turn_delay": 0.9674739837646484,
+          "on_user_turn_completed_delay": 3.4999975468963385e-06
+        },
+        "created_at": 1768556562.844407
+      },
+      {
+        "id": "item_273a7964f693",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello again! It seems you may be checking in. If you're ready, we can jump right into the interview questions. Shall we begin?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768556564.501429,
+          "stopped_speaking_at": 1768556571.825981,
+          "llm_node_ttft": 1.1204304999992019,
+          "tts_node_ttfb": 0.5328635839978233,
+          "e2e_latency": 2.6266140937805176
+        },
+        "created_at": 1768556562.853088
+      }
+    ]
+  },
+  "timestamp": 1768556587.349045
+}

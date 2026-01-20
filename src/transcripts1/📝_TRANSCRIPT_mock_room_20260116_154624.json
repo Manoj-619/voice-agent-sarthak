@@ -1,0 +1,37 @@
+{
+  "save_paths": {
+    "audio": null,
+    "json": "/Users/riapicardo/Desktop/basethesis/ottomator-agents/agent-starter-python/.github/transcripts1/\ud83d\udcdd_TRANSCRIPT_mock_room_20260116_154624.json",
+    "directory": "/Users/riapicardo/Desktop/basethesis/ottomator-agents/agent-starter-python/.github/transcripts1"
+  },
+  "audio_frames_captured": 0,
+  "candidate_responses": [
+    {
+      "content": "How",
+      "confidence": 0.0
+    }
+  ],
+  "transcript": {
+    "items": [
+      {
+        "id": "item_9f79476f7047",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_60527d4ae357",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "How"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.0,
+        "extra": {},
+        "metrics": {}
+      }
+    ]
+  },
+  "room": "mock_room",
+  "timestamp": "20260116_154624"
+}

@@ -1,0 +1,237 @@
+{
+  "transcript": {
+    "items": [
+      {
+        "id": "item_f5d8a65bfdaa",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_79ca2c550814",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.998982,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460169.086968,
+          "stopped_speaking_at": 1768460169.290758,
+          "transcription_delay": 0.7271039485931396,
+          "end_of_turn_delay": 0.7295489311218262,
+          "on_user_turn_completed_delay": 2.7500009309733286e-06
+        }
+      },
+      {
+        "id": "item_b2bea5bb2421",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! It's great to meet you. I'm [Your Name], and I’ll be conducting your interview today for ConnectionOS. How are you doing?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460171.209506,
+          "stopped_speaking_at": 1768460178.388473,
+          "llm_node_ttft": 0.801980750000439,
+          "tts_node_ttfb": 0.3867337909996422,
+          "e2e_latency": 1.918748140335083
+        }
+      },
+      {
+        "id": "item_491db8e8fa80",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I'm dunkata."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.7313769999999999,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460179.586834,
+          "stopped_speaking_at": 1768460180.086074,
+          "transcription_delay": 1.3556690216064453,
+          "end_of_turn_delay": 1.4096519947052002,
+          "on_user_turn_completed_delay": 9.57999873207882e-07
+        }
+      },
+      {
+        "id": "item_b2f5e61a7dcb",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "I appreciate you taking the time to be here today, Dunkata. Let's dive into our conversation. \n\nTo start, can you tell me about a difficult problem you solved recently? What was the challenge, and how did you approach finding a solution?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460182.612888,
+          "stopped_speaking_at": 1768460194.389648,
+          "llm_node_ttft": 0.6844155409999075,
+          "tts_node_ttfb": 0.4851154999996652,
+          "e2e_latency": 2.5268139839172363
+        }
+      },
+      {
+        "id": "item_4ad9c1b49182",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Regarding voice agent twenty I went into the live tech docs understood the dogs and then solved my problem"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.8196034210526314,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460196.587111,
+          "stopped_speaking_at": 1768460207.087378,
+          "transcription_delay": 0.8261270523071289,
+          "end_of_turn_delay": 0.9098968505859375,
+          "on_user_turn_completed_delay": 5.000001692678779e-07
+        }
+      },
+      {
+        "id": "item_544742d72e45",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That sounds interesting! It seems like you took the initiative to dig into the technical documentation. Can you walk me through the specific steps you took to solve that problem? What was the outcome once you implemented your solution?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460209.258228,
+          "stopped_speaking_at": 1768460221.588759,
+          "llm_node_ttft": 0.880108499999551,
+          "tts_node_ttfb": 0.4631366670000716,
+          "e2e_latency": 2.1708500385284424
+        }
+      },
+      {
+        "id": "item_c24c676f8831",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I had better result"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.6419355,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460224.1880121,
+          "stopped_speaking_at": 1768460224.387519,
+          "transcription_delay": 1.8763401508331299,
+          "end_of_turn_delay": 1.959252119064331,
+          "on_user_turn_completed_delay": 5.410001904238015e-07
+        }
+      },
+      {
+        "id": "item_efeaf2ecefb2",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That’s great to hear that you achieved better results! It sounds like you really made an impact. Moving on to the next scenario, can you describe a time when you made a decision with incomplete information? What was the situation, and how did you handle it?"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460227.5777972,
+          "stopped_speaking_at": 1768460231.0768619,
+          "llm_node_ttft": 0.8724340410008153,
+          "tts_node_ttfb": 0.44026387499980046,
+          "e2e_latency": 3.1902782917022705
+        }
+      },
+      {
+        "id": "item_f05c34d6fb13",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I could get the transcripts I could get the mattresses for each turn"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.8594953076923078,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460228.186072,
+          "stopped_speaking_at": 1768460229.886724,
+          "transcription_delay": 1.1889519691467285,
+          "end_of_turn_delay": 1.2738158702850342,
+          "on_user_turn_completed_delay": 6.250011210795492e-07
+        }
+      },
+      {
+        "id": "item_e22fc7ae60a1",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It sounds like you were able to gather some critical information with the transcripts and metrics. Can you explain how you weighed the information you had and what factors influenced your final decision? What was the outcome of that decision?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460232.6151412,
+          "stopped_speaking_at": 1768460243.989689,
+          "llm_node_ttft": 0.7930958750002901,
+          "tts_node_ttfb": 0.6596645000008721,
+          "e2e_latency": 2.728417158126831
+        }
+      },
+      {
+        "id": "item_555920fe621a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thank you."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9250579999999999,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460245.086265,
+          "stopped_speaking_at": 1768460245.3845508,
+          "transcription_delay": 0.6130480766296387,
+          "end_of_turn_delay": 0.6953363418579102,
+          "on_user_turn_completed_delay": 4.5900014811195433e-07
+        }
+      },
+      {
+        "id": "item_7a8544fa7465",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "You're welcome! If you have any specific details you'd like to share about the outcome or how you felt about the decision-making process, I’d love to hear about it. Otherwise, we can move on to the next question. \n\nTell me about a disagreement you've had with a teammate. How did you handle the situation, and what was the result?"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768460247.748563,
+          "stopped_speaking_at": 1768460248.014525,
+          "llm_node_ttft": 0.9221964170010324,
+          "tts_node_ttfb": 0.827237999999852,
+          "e2e_latency": 2.3640122413635254
+        }
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.6953363418579102,
+    "llm_ttft": 0.9214799170003971,
+    "tts_ttfb": 0.2807388749988604,
+    "total_latency": 1.8975551338571677,
+    "metrics_types": [
+      "STTMetrics",
+      "EOUMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "LLMMetrics"
+    ],
+    "metrics_count": 103
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260115_122730"
+}

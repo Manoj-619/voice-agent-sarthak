@@ -1,0 +1,464 @@
+{
+  "interview_type": "BaseThesis Technical Behavioral Interview",
+  "transcript": {
+    "items": [
+      {
+        "id": "item_0881237f426c",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_97151592b270",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9914551,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475310.581641,
+          "stopped_speaking_at": 1768475310.780607,
+          "transcription_delay": 1.2134950160980225,
+          "end_of_turn_delay": 1.31852388381958,
+          "on_user_turn_completed_delay": 1.2920027074869722e-06
+        }
+      },
+      {
+        "id": "item_8003359d8c8e",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hello! I’m glad to see you here. I’m [Your Name], a technical interviewer with BaseThesis. Today, I’m going to ask you a few questions about your technical experiences to understand how you approach problems. Let’s get started! \n\nFirst, can you tell me about a difficult technical problem you solved recently? What made it challenging?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475313.9275851,
+          "stopped_speaking_at": 1768475331.6054149,
+          "llm_node_ttft": 1.3945114579983056,
+          "tts_node_ttfb": 0.5374144580018765,
+          "e2e_latency": 3.1469781398773193
+        }
+      },
+      {
+        "id": "item_799387e648bc",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Recently, I was stuck, uh, for, uh, finding the like, transcripts and, um, the matrices for, uh, LifeCat. I went into the docs, understood the docs properly, and then had a solution for that."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9703776199999999,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475334.979007,
+          "stopped_speaking_at": 1768475347.68374,
+          "transcription_delay": 0.6751642227172852,
+          "end_of_turn_delay": 0.7331900596618652,
+          "on_user_turn_completed_delay": 7.499984349124134e-07
+        }
+      },
+      {
+        "id": "item_3ad17bf81434",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Thank you for sharing that. It sounds like you faced a challenge with finding the transcripts and matrices for LifeCat. Can you tell me more about what specifically made this problem difficult for you? What were the challenges you encountered while trying to find a solution?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475349.4187799,
+          "stopped_speaking_at": 1768475362.9055018,
+          "llm_node_ttft": 0.7090875419999065,
+          "tts_node_ttfb": 0.350006292002945,
+          "e2e_latency": 1.7350399494171143
+        }
+      },
+      {
+        "id": "item_44fc2dff6d84",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "So that specific challenges was I was running out of the uh, limits for the TTS on live date, and, uh, that was ending my sessions. What I did was I understood that, okay, uh, instead of using LiveKit, in friends directly, I'll go and, uh, connect with the model providers directly and use their inference. So that way, I get the generous credits that they have given us, and, uh,"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9854600677777778,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475364.0809312,
+          "stopped_speaking_at": 1768475384.883133,
+          "transcription_delay": 0.6736812591552734,
+          "end_of_turn_delay": 0.7486269474029541,
+          "on_user_turn_completed_delay": 4.159992386121303e-07
+        }
+      },
+      {
+        "id": "item_576ccf03cc50",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That sounds like a creative approach to resolve the limitations you were facing. To dig a little deeper, what alternatives did you consider before deciding to connect with the model providers directly? Why did you ultimately choose that approach?"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475387.1598961,
+          "stopped_speaking_at": 1768475390.260727,
+          "llm_node_ttft": 0.7240166250012408,
+          "tts_node_ttfb": 0.8781415000012203,
+          "e2e_latency": 2.2767632007598877
+        }
+      },
+      {
+        "id": "item_6969b486bb78",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "uh, we'll don't have to pay extra markup or margins to LifeKit and have more control over uh, the inference that we are doing."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99169922,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475385.67959,
+          "stopped_speaking_at": 1768475392.07992,
+          "transcription_delay": 0.4767489433288574,
+          "end_of_turn_delay": 0.5816559791564941,
+          "on_user_turn_completed_delay": 4.579997039400041e-07
+        }
+      },
+      {
+        "id": "item_53c45e50baea",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That makes sense—you were looking for a way to reduce costs and gain more control. Can you share what you didn’t know at the start about working with the model providers directly, and how you went about learning what you needed to know to implement that solution?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475393.845761,
+          "stopped_speaking_at": 1768475409.005183,
+          "llm_node_ttft": 0.7366393329975836,
+          "tts_node_ttfb": 0.5514535410002281,
+          "e2e_latency": 1.765841007232666
+        }
+      },
+      {
+        "id": "item_658899797902",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "What happened is I assumed, like, it's five thousand minutes, uh,"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.98535156,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475410.882165,
+          "stopped_speaking_at": 1768475414.178702,
+          "transcription_delay": 0.48366594314575195,
+          "end_of_turn_delay": 0.5882151126861572,
+          "on_user_turn_completed_delay": 7.090020517352968e-07
+        }
+      },
+      {
+        "id": "item_87291bac95e4",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "per month free as the final, uh, offering. I didn't go deep into understanding the limits on their inference."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9977213466666667,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475414.980711,
+          "stopped_speaking_at": 1768475420.885102,
+          "transcription_delay": 0.46848487854003906,
+          "end_of_turn_delay": 0.6851568222045898,
+          "on_user_turn_completed_delay": 4.160028765909374e-07
+        }
+      },
+      {
+        "id": "item_454c56ffe285",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That's a valuable insight about the limitations you originally assumed. How did you go about learning this information once you realized you needed to dig deeper? What steps did you take to get a better understanding? Looking back, is there anything you would do differently in your approach?"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475422.719021,
+          "stopped_speaking_at": 1768475425.1618829,
+          "llm_node_ttft": 0.7572503330011386,
+          "tts_node_ttfb": 0.6070979999967676,
+          "e2e_latency": 1.8339190483093262
+        }
+      },
+      {
+        "id": "item_7977b8a459c9",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "But, uh, then, uh, hitting this limit and learning about the inference limitation,"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9913737,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475421.578497,
+          "stopped_speaking_at": 1768475426.4810638,
+          "transcription_delay": 0.5718042850494385,
+          "end_of_turn_delay": 0.6706912517547607,
+          "on_user_turn_completed_delay": 5.829970177728683e-07
+        }
+      },
+      {
+        "id": "item_ee59475890ec",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "uh, made me make a decision on whether the model provided differently because it proved better ROI."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.972717295,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475427.281013,
+          "stopped_speaking_at": 1768475433.4809978,
+          "transcription_delay": 0.4726719856262207,
+          "end_of_turn_delay": 0.6746323108673096,
+          "on_user_turn_completed_delay": 5.000001692678779e-07
+        }
+      },
+      {
+        "id": "item_d7e48320329a",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It's great to hear that you were able to pivot your strategy based on what you learned about the inference limits. Now, let's move on to a different aspect of your technical experience. Can you describe a time when you made a technical decision that involved trade-offs? What was the situation, and what factors did you weigh in making that decision?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475435.89935,
+          "stopped_speaking_at": 1768475454.1063821,
+          "llm_node_ttft": 1.162574375000986,
+          "tts_node_ttfb": 0.7821307499980321,
+          "e2e_latency": 2.4183521270751953
+        }
+      },
+      {
+        "id": "item_9c795b6a2227",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Some physical loss that was there, like, basically, the model was just trained on data and not in the physical aspects. So that was the trade off. To understand that, we had to put the physical loss the equations into the model to understand and make it better understand."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9934895966666666,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475456.982514,
+          "stopped_speaking_at": 1768475474.480732,
+          "transcription_delay": 0.5637931823730469,
+          "end_of_turn_delay": 0.6288301944732666,
+          "on_user_turn_completed_delay": 3.3299875212833285e-07
+        }
+      },
+      {
+        "id": "item_b8e1f2a33b9a",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It sounds like you had to consider the balance between purely data-driven training and incorporating physical aspects into the model. What could potentially go wrong with that approach? Have you thought about how you would monitor this combined model in production to ensure it’s performing as expected?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475476.825093,
+          "stopped_speaking_at": 1768475489.505464,
+          "llm_node_ttft": 1.0681705419992795,
+          "tts_node_ttfb": 0.71183474999998,
+          "e2e_latency": 2.3443610668182373
+        }
+      },
+      {
+        "id": "item_84f72f2128e4",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Uh, yes. Because of the model uh,"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.8969726499999999,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475490.281587,
+          "stopped_speaking_at": 1768475493.581889,
+          "transcription_delay": 0.1630229949951172,
+          "end_of_turn_delay": 0.5853700637817383,
+          "on_user_turn_completed_delay": 3.749992174562067e-07
+        }
+      },
+      {
+        "id": "item_075178d2e4a6",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "I see that you're considering the implications of the model's performance. Could you elaborate on what specific monitoring strategies you would implement in production to keep track of the model's performance? Also, did you take into account any possible error handling or edge cases during this integration?"
+        ],
+        "interrupted": true,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475494.977461,
+          "stopped_speaking_at": 1768475499.053039,
+          "llm_node_ttft": 0.741948124999908,
+          "tts_node_ttfb": 0.489606040999206,
+          "e2e_latency": 1.3955721855163574
+        }
+      },
+      {
+        "id": "item_69880f7db5fc",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "will be in constant defining, like, will be fighting within itself because there is a data that will, uh, tell you one route, whereas the physics will tell you one route. So it'll be constantly fighting against each other. So you had to come to a middle ground where you understand how it will perform with the data and how and yet to tweak the physics also properly so that both it comes to a middle ground so that you have the better results."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99853516,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475494.1805959,
+          "stopped_speaking_at": 1768475521.179904,
+          "transcription_delay": 0.4729480743408203,
+          "end_of_turn_delay": 0.572843074798584,
+          "on_user_turn_completed_delay": 6.250011210795492e-07
+        }
+      },
+      {
+        "id": "item_b1d2fe3feea0",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "That’s a thoughtful approach—finding a middle ground between data-driven insights and physical laws is definitely a challenge. Let’s shift gears a bit. Can you tell me about a time when you had to learn something completely new in order to ship a product or feature? What was your learning process like? How did you ensure you had a good understanding before implementing it?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475523.0742788,
+          "stopped_speaking_at": 1768475542.205143,
+          "llm_node_ttft": 0.7365465830007452,
+          "tts_node_ttfb": 0.6839616670004034,
+          "e2e_latency": 1.8943748474121094
+        }
+      },
+      {
+        "id": "item_135c97d7f6a1",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Uh, again, I had to learn about mostly, like, electrochemical models, uh, because I had to understand the physics in-depth of that."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99804688,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475543.680223,
+          "stopped_speaking_at": 1768475551.479278,
+          "transcription_delay": 0.5733389854431152,
+          "end_of_turn_delay": 0.6770389080047607,
+          "on_user_turn_completed_delay": 7.499984349124134e-07
+        }
+      },
+      {
+        "id": "item_430afe6c5f7c",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Learning about electrochemical models sounds complex! Can you walk me through your learning process? How did you know when you had gained enough knowledge to start implementing? Additionally, once you built something based on this new learning, did anyone actually use what you created? What challenges did you encounter, and how did you address them?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "llm_node_ttft": 0.7419801670002926
+        }
+      },
+      {
+        "id": "item_63ae7ac149b4",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I went into learning the books, understanding the reading the books, understanding that, and then, uh, tried finding the solution of how to reduce those equations."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99934896,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768475552.5794141,
+          "stopped_speaking_at": 1768475565.079999,
+          "transcription_delay": 0.5741398334503174,
+          "end_of_turn_delay": 0.6773891448974609,
+          "on_user_turn_completed_delay": 6.250011210795492e-07
+        }
+      },
+      {
+        "id": "item_9c398f4914a3",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "It sounds like you took a solid approach by turning to books for foundational knowledge. Once you started implementing the solution, did you encounter any issues or failures? How did you debug those problems? Also, was there any user feedback that informed you about the effectiveness of what you built?"
+        ],
+        "interrupted": false,
+        "extra": {},
+        "metrics": {
+          "llm_node_ttft": 0.8116048340016278
+        }
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.6773891448974609,
+    "llm_ttft": 0.7452427500029444,
+    "tts_ttfb": 0.21142616699944483,
+    "total_latency": 1.6340580618998501,
+    "metrics_types": [
+      "VADMetrics",
+      "LLMMetrics",
+      "VADMetrics",
+      "VADMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 397
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260115_164339",
+  "evaluation_framework": {
+    "domain_deep_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "systems_thinking": {
+      "weight": "25%",
+      "scale": "0-10"
+    },
+    "production_mindset": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "learning_velocity": {
+      "weight": "20%",
+      "scale": "0-10"
+    },
+    "research_maturity": {
+      "weight": "10%",
+      "scale": "0-10"
+    }
+  },
+  "note": "Scores and detailed evaluation should be extracted from the agent's final response in the transcript"
+}

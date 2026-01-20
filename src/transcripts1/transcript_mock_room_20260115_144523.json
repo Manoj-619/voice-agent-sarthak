@@ -1,0 +1,45 @@
+{
+  "transcript": {
+    "items": [
+      {
+        "id": "item_6c27cbc0e162",
+        "type": "agent_handoff",
+        "new_agent_id": "assistant"
+      },
+      {
+        "id": "item_46830cff17eb",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hello?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.920166,
+        "extra": {},
+        "metrics": {
+          "started_speaking_at": 1768468399.1936269,
+          "stopped_speaking_at": 1768468399.393619,
+          "transcription_delay": 0.4594290256500244,
+          "end_of_turn_delay": 0.6240189075469971,
+          "on_user_turn_completed_delay": 8.33999365568161e-07
+        }
+      }
+    ]
+  },
+  "latency_metrics": {
+    "end_of_utterance_delay": 0.6240189075469971,
+    "llm_ttft": 0.0,
+    "tts_ttfb": 0.0,
+    "total_latency": 0.6240189075469971,
+    "metrics_types": [
+      "VADMetrics",
+      "VADMetrics",
+      "STTMetrics",
+      "VADMetrics",
+      "VADMetrics"
+    ],
+    "metrics_count": 156
+  },
+  "room_name": "mock_room",
+  "timestamp": "20260115_144523"
+}
