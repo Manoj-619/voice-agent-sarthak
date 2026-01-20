@@ -9,4 +9,4 @@ KMS
 .vscode
 *.egg-info
 .pytest_cache
-.ruff_cache
+.ruff_cacheagent.zip
